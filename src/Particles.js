@@ -3,7 +3,7 @@ import Particles from "react-particles";
 import type { Engine } from "@tsparticles/engine";
 import { loadFull } from "tsparticles";
 
-export class ParticlesContainer extends Component {
+export default class ParticlesContainer extends Component {
   // this customizes the component tsParticles installation
   async customInit(engine: Engine): Promise<void> {
     // this adds the bundle to tsParticles
